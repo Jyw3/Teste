@@ -1,0 +1,45 @@
+/* Estilos gerais para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f0; /* Cor de fundo leve */
+}
+
+/* Estilo da div principal */
+.central {
+    margin-left: 220px; /* Espaço para a barra lateral */
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo branca */
+    border: 1px solid #cccccc; /* Borda leve */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: calc(100% - 240px); /* Largura ajustada para não ultrapassar a tela */
+    overflow-y: auto; /* Adiciona rolagem se o conteúdo for maior que a altura */
+}
+
+/* Estilo da div barra lateral */
+.barra {
+    position: fixed; /* Fixa a barra na tela */
+    top: 0; /* Alinhada ao topo */
+    left: 0; /* Alinhada à esquerda */
+    width: 200px; /* Largura da barra */
+    height: 100vh; /* Altura da barra igual à altura da tela */
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo branca */
+    border-right: 1px solid #cccccc; /* Borda direita leve */
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    overflow-y: auto; /* Adiciona rolagem se o conteúdo for maior que a altura */
+}
+
+/* Estilo dos links na barra lateral */
+.barra a {
+    text-decoration: none;
+    color: #007bff; /* Cor azul para links */
+}
+
+.barra a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
